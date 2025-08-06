@@ -82,6 +82,7 @@ function mostrarResultado() {
     const select = document.getElementById('selecaoPessoa');
     const nomeSelecionado = select.value;
     const resultado = document.getElementById('resultado');
+    console.log(resultado);
 
     if (nomeSelecionado && sorteioMap[nomeSelecionado]) {
         resultado.innerHTML = `<p>${nomeSelecionado}, você tirou <strong>${sorteioMap[nomeSelecionado]}</strong>!</p>`;
