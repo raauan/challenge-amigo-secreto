@@ -56,6 +56,7 @@ function sortearAmigos() {
     while (!valido) {
         embaralhado = [...amigos].sort(() => Math.random() - 0.5);
         valido = amigos.every((nome, i) => nome !== embaralhado[i]);
+        console.log(resultado);
     }
 
     sorteioMap = {};
@@ -82,7 +83,6 @@ function mostrarResultado() {
     const select = document.getElementById('selecaoPessoa');
     const nomeSelecionado = select.value;
     const resultado = document.getElementById('resultado');
-    console.log(resultado);
 
     if (nomeSelecionado && sorteioMap[nomeSelecionado]) {
         resultado.innerHTML = `<p>${nomeSelecionado}, você tirou <strong>${sorteioMap[nomeSelecionado]}</strong>!</p>`;
