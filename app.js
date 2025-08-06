@@ -56,7 +56,6 @@ function sortearAmigos() {
     while (!valido) {
         embaralhado = [...amigos].sort(() => Math.random() - 0.5);
         valido = amigos.every((nome, i) => nome !== embaralhado[i]);
-        console.log(resultado);
     }
 
     sorteioMap = {};
@@ -90,6 +89,6 @@ function mostrarResultado() {
         setTimeout(() => {
             resultado.innerHTML = '';
             select.value = '';
-        }, 15000);
+        }, 5000);
     }
 }
