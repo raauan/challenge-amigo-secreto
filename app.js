@@ -28,6 +28,7 @@ function exibirNomesAmigos() {
             exibirNomesAmigos();
         };
 
+        //botão para permitir edição de nomes
         const btnEditar = document.createElement('button');
         btnEditar.innerText = '✎';
         btnEditar.classList.add('botao-editar');
@@ -49,9 +50,9 @@ function sortearAmigos() {
         return;
     }
 
+    //embaralha de modo que não seja permitido uma pessoa tirar ela mesma
     let valido = false;
     let embaralhado = [];
-
     while (!valido) {
         embaralhado = [...amigos].sort(() => Math.random() - 0.5);
         valido = amigos.every((nome, i) => nome !== embaralhado[i]);
@@ -68,7 +69,7 @@ function sortearAmigos() {
 
 function popularSelect() {
     const select = document.getElementById('selecaoPessoa');
-    select.innerHTML = '<option value="">Selecione seu nome para ver o sorteio</option>';
+    select.innerHTML = '<option value="">Ver sorteio</option>';
     amigos.forEach(nome => {
         const option = document.createElement('option');
         option.value = nome;
@@ -76,7 +77,7 @@ function popularSelect() {
         select.appendChild(option);
     });
 }
-
+//mostra quem a pessoa tirou ao selecionar um nome da lista
 function mostrarResultado() {
     const select = document.getElementById('selecaoPessoa');
     const nomeSelecionado = select.value;
