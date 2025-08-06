@@ -89,6 +89,6 @@ function mostrarResultado() {
         setTimeout(() => {
             resultado.innerHTML = '';
             select.value = '';
-        }, 10000);
+        }, 15000);
     }
 }

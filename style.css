@@ -226,6 +226,4 @@ ul {
     outline: none;
     border-color: var(--color-primary);
     box-shadow: 0 0 8px var(--color-primary);
-    transform: scale(1.1);
-    transition: 0.3s;
 }
