@@ -37,6 +37,6 @@ ou SSH: `git clone git@github.com:raauan/challenge-amigo-secreto.git`
 - JavaScript
 
 
-## Autor 👤
+## 👨‍💻 Autor 👨‍💻
 
 Rauan Siqueira Pereira
