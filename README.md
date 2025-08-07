@@ -6,7 +6,7 @@
 ## O que é?
 
 Trata-se de um desafio proposto durante o curso da Oracle Next Education onde foi desenvolvida uma aplicação com as linguagens JavaScript, HTML e CSS. 
-O objetivo do projeto é realizar sorteios de amigo secreto de forma simples e automática, permitindo aos usuários visualizarem seus resultados de forma individual **após** a realização do sorteio. Não sendo possível um participante tirar o próprio nome, ou que dois participantes tirem o mesmo nome.
+O objetivo do projeto é realizar sorteios de amigo secreto de forma simples e automática, permitindo aos usuários visualizarem seus resultados de forma individual **após** a realização do sorteio ao clicar em `Ver sorteio` e selecionar um nome. Não sendo possível um participante tirar o próprio nome, ou que dois participantes tirem o mesmo nome.
 
 
 ## :hammer: Funcionalidades :hammer:
