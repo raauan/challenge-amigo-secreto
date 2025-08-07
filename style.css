@@ -225,5 +225,6 @@ ul {
 #selecaoPessoa:focus {
     outline: none;
     border-color: var(--color-primary);
+    background-color: var(--color-tertiary);
     box-shadow: 0 0 8px var(--color-primary);
 }
