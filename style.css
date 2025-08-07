@@ -209,6 +209,7 @@ ul {
 }
 
 #selecaoPessoa {
+    display: none; /* escondido por padrão */
     margin-top: 20px;
     padding: 10px;
     font-size: 16px;
@@ -220,6 +221,11 @@ ul {
     font-family: "Inter", sans-serif;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* animação suave */
+}
+
+#selecaoPessoa:hover {
+    transform: scale(1.1); /* animação de escala ao passar o mouse */
 }
 
 #selecaoPessoa:focus {

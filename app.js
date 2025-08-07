@@ -50,7 +50,7 @@ function sortearAmigos() {
         return;
     }
 
-    //embaralha de modo que não seja permitido uma pessoa tirar ela mesma
+    // embaralha garantindo que ninguém tire a si mesmo
     let valido = false;
     let embaralhado = [];
     while (!valido) {
@@ -65,6 +65,9 @@ function sortearAmigos() {
 
     popularSelect();
     document.getElementById('resultado').innerHTML = '';
+
+    // mostra o botão de resultado após o sorteio
+    document.getElementById('selecaoPessoa').style.display = 'block';
 }
 
 function popularSelect() {
