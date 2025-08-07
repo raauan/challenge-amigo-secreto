@@ -23,8 +23,8 @@ O objetivo do projeto é realizar sorteios de amigo secreto de forma simples e a
 ## 🚀 Como usar 🚀
 
 ### 📁 Acesso ao projeto
-1. Clone ou faça download do repositório https://github.com/raauan/challenge-amigo-secreto/tree/main no VS Code com
-HTLM:  `git clone https://github.com/raauan/challenge-amigo-secreto.git` ou SSH: `git@github.com:raauan/challenge-amigo-secreto.git`
+1. Clone ou faça download do repositório https://github.com/raauan/challenge-amigo-secreto/tree/main no   VS Code com
+HTLM: `git clone https://github.com/raauan/challenge-amigo-secreto.git` ou SSH: `git@github.com:raauan/challenge-amigo-secreto.git`
 2. Abra a pasta 
 3. Abra o `index.html` no navegador clicando duas vezes no arquivo.
 4. Acesse diretamente pelo link: https://challenge-amigo-secreto-xi-rosy.vercel.app/
