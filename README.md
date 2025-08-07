@@ -17,7 +17,8 @@ O objetivo do projeto é realizar sorteios de amigo secreto de forma simples e a
 - Visualizar resultado individualmente
 
 ![Gif adicionando nomes:](https://github.com/user-attachments/assets/0c25f95f-0d4b-4eb4-84e9-dd7d5408d84e)
-<img width="650" height="550" alt="sorteio_realizado" src="https://github.com/user-attachments/assets/85a337a8-b01d-425f-bf0a-41464ee89bd8" />
+<img width="650" height="550" alt="sorteio_realizado" src="https://github.com/user-attachments/assets/2ac2a0b1-2213-4a4a-b480-5d067970b7fa" />
+
 
 
 ## 🚀 Como usar 🚀
